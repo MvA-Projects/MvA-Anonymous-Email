@@ -1,0 +1,35 @@
+body {
+    background-color: #333333;
+}
+
+p {
+    color: #DDDDDD;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+button {
+    background-color: #0bc19a;
+    border-radius: 25px;
+    padding: 10px;
+    border-style: none;
+    color: #CCCCCC;
+    font-size: 28px;
+    font-family: 'Roboto', monospace;
+}
+
+button:active {
+    background-color: #0ca484;
+}
+
+.p-title {
+    font-size: 48px;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}

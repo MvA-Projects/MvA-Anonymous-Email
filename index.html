@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Anonymous E-mail by MvA</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+    <div class="centered">
+        <p class="p-title">
+            Send E-mail anonymously.
+        </p>
+        <hr />
+        <p>
+            Do you need to send someone an E-mail without them knowing who sent it?<br />
+            Our anonymous E-mail tool will help you out! All E-mails are sent with <br />
+            the "mva_anonymous@zoho.com" E-mail address.
+        </p>
+        <hr />
+        <p>
+            To: <input type="email" id="email-to" />
+        </p>
+        <p>
+            Subject: <input type="text" id="email-subject" />
+        </p>
+        <p>
+            Content: <textarea rows="10" colums="100" id="email-content"></textarea>
+        </p>
+        <button onclick="sendEmail()">Send</button>
+    </div>
+
+</body>
+
+</html>
